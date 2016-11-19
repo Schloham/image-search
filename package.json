@@ -1,0 +1,23 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "engines": {
+    "node": "7.0.0"
+  },
+  "scripts": {
+    "start": "node app",
+    "start:dev": "nodemon app"
+  },
+  "main": "app.js",
+  "author": "Louis S.",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.6.8",
+    "jade": "~1.11.0",
+    "request": "^2.78.0"
+  },
+  "devDependencies": {
+    "dotenv": "^2.0.0"
+  }
+}
